@@ -6,6 +6,8 @@ html {
     font-size: 16px;
 }
 
+/* HEADER */
+
 header {  
     pointer-events: auto;
     background-color: #EDEDED;
@@ -51,6 +53,8 @@ li a {
     text-decoration: underline;
 }
 
+/*BODY*/
+
 img {
     display: block;
     margin-left: auto;
@@ -58,33 +62,45 @@ img {
     width: 80%;
 }
 
+/*FOOTER*/
+
 footer {
     width: 100%;
     background-color: #EDEDED;
-    padding: 5px 0;
-    float: left;
-    position: relative;
-    z-index: 800;
-}
-
-footer div {
-    display: inline-block;
+    margin-top: 8px;
+    min-height: 95px;
 }
 
 .column-one {
-    margin-left: 5%;
     font-family: 'Cinzel', serif;
+    font-size: 0.7rem;
+    float: left;
+    display: inline;
+    width: 48%;
+    padding-left: 8px;
 }
 
 .column-two {
-    margin-left: 15%;
     font-family: 'Cinzel', serif;
+    font-size: 0.7rem;
+    float: right;
+    display: inline;
+    padding-right: 8px;
+    line-height: 1.2rem;
 }
 
-.column-three {
-    margin-left: 25%;
+.up {
     font-family: 'Cinzel', serif;
+    font-size: 0.5rem;
 }
+
+.address,
+.contact {
+    text-decoration: underline;
+    background-color: #EDEDED;
+}
+
+/* @media section */
 
 @media only screen and (min-width: 1024px) {
     .logo {
