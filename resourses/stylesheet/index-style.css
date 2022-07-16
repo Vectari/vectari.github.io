@@ -76,7 +76,7 @@ footer {
     font-size: 0.7rem;
     float: left;
     display: inline;
-    width: 48%;
+    width: 40%;
     padding-left: 8px;
 }
 
@@ -87,6 +87,7 @@ footer {
     display: inline;
     padding-right: 8px;
     line-height: 1.2rem;
+    width: 50%;
 }
 
 .up {
