@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+}
+
+html {
+    font-size: 16px;
+}
+
+header {  
+    pointer-events: auto;
+    background-color: #EDEDED;
+    width: 100%;
+}
+
+#logo {
+    text-align: center;
+}
+
+.logo {
+    font-size: 2.8rem;
+    font-family: 'Great Vibes', cursive;
+    display: inline-block;
+}
+
+.logo-image {
+    width: 5.8rem;
+    display: inline-block;
+    margin-top: 8px;
+    padding-left: 10px;
+}
+
+ul {
+    padding-top: 10px;
+    z-index: 100;
+    position: relative;   
+}
+
+li {
+    display: block;
+    font-size: 0.8rem;
+    font-family: 'Cinzel', serif;
+    text-align: center;
+}
+
+li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.active {
+    text-decoration: underline;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+footer {
+    width: 100%;
+    background-color: #EDEDED;
+    padding: 5px 0;
+    float: left;
+    position: relative;
+    z-index: 800;
+}
+
+footer div {
+    display: inline-block;
+}
+
+.column-one {
+    margin-left: 5%;
+    font-family: 'Cinzel', serif;
+}
+
+.column-two {
+    margin-left: 15%;
+    font-family: 'Cinzel', serif;
+}
+
+.column-three {
+    margin-left: 25%;
+    font-family: 'Cinzel', serif;
+}
+
+@media only screen and (min-width: 1024px) {
+    .logo {
+        font-size: 3rem;
+    }
+
+    .logo-image {
+        width: 6rem;
+    }
+
+    li {
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    #logo {
+        text-align: left;
+        padding-top: 8px;
+        padding-left: 15px;
+        margin-bottom: 30px;
+    }
+    
+    .logo {
+        font-size: 3.3rem;
+        position: absolute;
+    }
+
+    .logo-image {
+        width: 6.3rem;
+        position: absolute;
+        margin-left: 300px;
+        margin-top: -5px;
+    }
+
+    ul {
+        position: relative;
+    }
+
+    li {
+        display: inline-block;
+        font-size: 1.3rem;
+        padding: 8px;  
+    }
+
+    .navigation {
+        text-align: right;
+        
+    }
+}
+
+@media only screen and (min-width: 1900px) {
+    #logo {
+        text-align: left;
+        padding-top: 8px;
+        padding-left: 15px;
+        margin-bottom: 30px;
+    }
+    
+    .logo {
+        font-size: 4rem;
+        position: absolute;
+    }
+
+    .logo-image {
+        width: 8rem;
+        position: absolute;
+        margin-left: 360px;
+        margin-top: -5px;
+    }
+
+    ul {
+        position: relative;
+    }
+
+    li {
+        display: inline-block;
+        font-size: 1.8rem;
+        padding: 8px;  
+    }
+
+    .navigation {
+        text-align: right;
+        
+    }
+}
