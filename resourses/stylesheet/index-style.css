@@ -4,6 +4,7 @@
 
 html {
     font-size: 16px;
+    height: 100%;
 }
 
 /* HEADER */
@@ -53,13 +54,55 @@ li a {
     text-decoration: underline;
 }
 
+.active a {
+    color: #D9D75B
+}
+
 /*BODY*/
 
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
+main {
+    margin: 5px 10px;
+}
+
+.couple-in-shadow {
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.p-one {
+    font-family: 'Antwerp Regular','Times New Roman',Times,serif;
+    font-size: 1.1rem;  
+    width: 46%;
+    color: #606060;
+    float: right;
+
+}
+
+.p-two {
+    font-family: 'Antwerp Regular','Times New Roman',Times,serif;
+    font-size: 1.1rem;  
+    width: 58%;
+    color: #606060;
+    float: left;
+}
+
+.couple-hands {
+    width: 32%;
+    border-radius: 10px;
+    margin-left: 15px;
+}
+
+.p-three {
+    font-family: 'Antwerp Regular','Times New Roman',Times,serif;
+    font-size: 1.1rem;  
+    color: #606060;
+}
+
+.flowers-horizontal {
+    width: 100%;
+    opacity: 0.8;
 }
 
 /*FOOTER*/
@@ -103,6 +146,67 @@ footer {
 
 /* @media section */
 
+@media only screen and (min-width: 768px) {
+    .logo {
+        font-size: 3.1rem;
+    }
+
+    .logo-image {
+        width: 6.1rem;
+    }
+
+    li {
+        font-size: 1.3rem;
+    }
+
+    .couple-in-shadow {
+        width: 50%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+    }
+    
+    .p-one {
+        font-size: 1.7rem;  
+        width: 42%;    
+    }
+    
+    .p-two {
+        font-size: 1.7rem;  
+        width: 52%;
+    }
+    
+    .couple-hands {
+        width: 32%;
+        margin-top: -50px;
+        margin-left: 50px;
+    }
+    
+    .p-three {
+        font-size: 1.6rem;  
+    }
+    
+    .flowers-horizontal {
+        width: 100%;
+    }
+
+    .column-one {
+        font-size: 1.1rem;
+    }
+    
+    .column-two {
+        font-size: 1.1rem;
+    }
+    
+    .up {
+        font-size: 0.8rem;
+    }
+
+    footer {
+        min-height: 140px;
+    }
+}
+
 @media only screen and (min-width: 1024px) {
     .logo {
         font-size: 3rem;
@@ -114,6 +218,18 @@ footer {
 
     li {
         font-size: 1.2rem;
+    }
+
+    .column-one {
+        font-size: 1rem;
+    }
+    
+    .column-two {
+        font-size: 1rem;
+    }
+    
+    .up {
+        font-size: 0.8rem;
     }
 }
 
@@ -151,6 +267,22 @@ footer {
         text-align: right;
         
     }
+
+    footer {
+        min-height: 130px;
+    }
+
+    .column-one {
+        font-size: 1.2rem;
+    }
+    
+    .column-two {
+        font-size: 1.2rem;
+    }
+    
+    .up {
+        font-size: 1rem;
+    }
 }
 
 @media only screen and (min-width: 1900px) {
@@ -186,5 +318,21 @@ footer {
     .navigation {
         text-align: right;
         
+    }
+    
+    footer {
+        min-height: 175px;
+    }
+
+    .column-one {
+        font-size: 1.6rem;
+    }
+    
+    .column-two {
+        font-size: 1.6rem;
+    }
+    
+    .up {
+        font-size: 1.4rem;
     }
 }
