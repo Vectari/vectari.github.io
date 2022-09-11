@@ -1,31 +1,83 @@
+/* BODY */
+
 body {
     background-color: #272935;
 }
 
 body div {
-    max-width: 600px;
+    max-width: 650px;
 }
 
-nav h2,
-nav img {
-    display: inline;
+/* NAV */
+nav {
+    display: inline-block;
+    width: 100%;
 }
 
-nav h2 {
+nav p {
     color: #ffffff;
+    font-weight: bold;
+    font-size: 21px;
+    float: left;
+    margin-top: 4px;
+    margin-left: 3px;
 }
 
 .icon {
-    width: 30px;
+    float: right;
+    width: 33px;
+}
+
+/* PHOTO AND CIRCLES */
+
+.photo-and-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 170px;
 }
 
 .photo {
-    height: 235px;
-    width: 235px;
+    position: absolute;
+    height: 230px;
+    width: 230px;
     border-radius: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+}
+
+.circle1 {
+    position: absolute;
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    animation: spin1 35s linear infinite;
+    border: 2.5px dashed #0ed211;
+  }
+  
+.circle2 {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    animation: spin2 40s linear infinite;
+    border: 2.5px dashed #0ed211;
+  }
+  
+@keyframes spin1 { 
+    100% { 
+      transform: rotateZ(360deg);
+    }
+  }
+
+@keyframes spin2 { 
+    100% { 
+      transform: rotateZ(-360deg);
+    }
+  }
+
+/* TEXT */
+
+.text-div {
+    padding-top: 160px;
 }
 
 main p {
