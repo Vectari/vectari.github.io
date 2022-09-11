@@ -18,3 +18,22 @@ nav h2 {
 .icon {
     width: 30px;
 }
+
+.photo {
+    height: 235px;
+    width: 235px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main p {
+    text-align: center;
+    font-size: 17px;
+    color: #ffffff;
+}
+
+main p span {
+    font-size: 23px;
+}
