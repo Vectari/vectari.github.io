@@ -89,3 +89,35 @@ main p {
 main p span {
     font-size: 23px;
 }
+
+/* SKILLS DIV */
+
+.skill-div {
+  display: inline-block;
+  width: 100%;
+}
+
+.skills-div h2 {
+  color: #ffffff;
+}
+
+.skill-icon {
+  width: 35px;
+}
+
+figcaption {
+  color: #ffffff;
+  font-size: 10px;
+}
+
+.icon-and-capt {
+  display: inline-block;
+  text-align: center;
+  padding-left: 10px;
+}
+
+/* PROJECT DIV */
+
+.project-div h2 {
+  color: #ffffff;
+}
