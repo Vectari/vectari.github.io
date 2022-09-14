@@ -52,6 +52,24 @@ body div {
   content: url("../images/git-icon-light.png");
 }
 
+.light-mode .circle1 {
+  border: 2.5px dashed #20d820;
+}
+
+.light-mode .circle2 {
+  border: 2.5px dashed #0ea1db;
+}
+
+.light-mode .project-div img {
+  border: 1px solid #272935;
+}
+
+.light-mode .project-div input {
+  color: #272935;
+  background-color: #0ea1db;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
 /* NAV */
 nav {
     display: inline-block;
@@ -164,4 +182,22 @@ figcaption {
 
 .project-div h2 {
   color: #ffffff;
+}
+
+.project-div img {
+  width: 260px;
+  border-radius: 8px;
+}
+
+.project-div figcaption {
+  font-size: 16px;
+}
+
+.project-div input{
+  color: #ffffff;
+  background-color: #dd8f11;
+  border: none;
+  border-radius: 8px;
+  height: 30px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
