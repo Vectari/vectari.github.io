@@ -2,10 +2,54 @@
 
 body {
     background-color: #272935;
+    font-family: 'Work Sans', sans-serif;
 }
 
 body div {
     max-width: 650px;
+}
+
+/* LIGHT MODE */
+
+.light-mode,
+.light-mode nav p {
+  background-color: #f8f8f8;
+}
+
+.light-mode nav p,
+.light-mode main p,
+.light-mode .skills-div h2,
+.light-mode figcaption,
+.light-mode .project-div h2 {
+  color: #272935;
+}
+
+.light-mode .sun-icon {
+  content: url("../images/moon-icon.png");
+}
+
+.light-mode .linkedin-light {
+  content: url("../images/linkedin-icon-light.png");
+}
+
+.light-mode .github-light {
+  content: url("../images/github-icon-light.png");
+}
+
+.light-mode .html-light {
+  content: url("../images/html5-icon-light.png");
+}
+
+.light-mode .css-light {
+  content: url("../images/css-icon-light.png");
+}
+
+.light-mode .js-light {
+  content: url("../images/js-icon-light.png");
+}
+
+.light-mode .git-light {
+  content: url("../images/git-icon-light.png");
 }
 
 /* NAV */
@@ -50,7 +94,7 @@ nav p {
     height: 270px;
     border-radius: 50%;
     animation: spin1 35s linear infinite;
-    border: 2.5px dashed #0ed211;
+    border: 2.5px dashed #2870dd;
   }
   
 .circle2 {
@@ -59,7 +103,7 @@ nav p {
     height: 250px;
     border-radius: 50%;
     animation: spin2 40s linear infinite;
-    border: 2.5px dashed #0ed211;
+    border: 2.5px dashed #dd8f11;
   }
   
 @keyframes spin1 { 
@@ -102,7 +146,7 @@ main p span {
 }
 
 .skill-icon {
-  width: 35px;
+  width: 38px;
 }
 
 figcaption {

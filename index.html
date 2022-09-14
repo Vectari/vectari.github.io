@@ -11,8 +11,9 @@
     <div>
         <nav>
             <p>Mateusz Portfolio</p>
-            <a href="https://www.linkedin.com/in/mateusz-majer-9042b2250" target=_blank><img class="icon" src="./resourses/images/linkedin-icon.png" alt="linkedin icon"></a>
-            <a href="https://github.com/Vectari" target=_blank><img class="icon" src="./resourses/images/github-icon.png" alt="github icon"></a>
+            <a onclick="myFunction()"><img class="icon sun-icon" src="./resourses/images/sun-icon.png"></a>
+            <a href="https://www.linkedin.com/in/mateusz-majer-9042b2250" target=_blank><img class="icon linkedin-light" src="./resourses/images/linkedin-icon-dark.png" alt="linkedin icon"></a>
+            <a href="https://github.com/Vectari" target=_blank><img class="icon github-light" src="./resourses/images/github-icon-dark.png" alt="github icon"></a>
         </nav>
         <main>
             <div class="photo-and-circle">
@@ -30,21 +31,28 @@
             <br>
             <div class="skills-div">
                 <h2>I'm working with:</h2>
-                <div class="icon-and-capt"><img class="skill-icon" src="./resourses/images/html5-icon.png">
+                <div class="icon-and-capt"><img class="skill-icon html-light" src="./resourses/images/html5-icon-dark.png">
                     <figcaption>HTML</figcaption></div>
-                <div class="icon-and-capt"><img class="skill-icon" src="./resourses/images/css-icon.png">
+                <div class="icon-and-capt"><img class="skill-icon css-light" src="./resourses/images/css-icon-dark.png">
                     <figcaption>CSS</figcaption></div>
-                <div class="icon-and-capt"><img class="skill-icon" src="./resourses/images/js-icon.png">
+                <div class="icon-and-capt"><img class="skill-icon js-light" src="./resourses/images/js-icon-dark.png">
                     <figcaption>JavaScript</figcaption></div>
-                <div class="icon-and-capt"><img class="skill-icon" src="./resourses/images/git-icon.png">
+                <div class="icon-and-capt"><img class="skill-icon git-light" src="./resourses/images/git-icon-dark.png">
                     <figcaption>GIT</figcaption></div>
-                <div class="icon-and-capt"><a href="https://github.com/Vectari" target=_blank><img  class="skill-icon" src="./resourses/images/github-icon.png">
+                <div class="icon-and-capt"><a href="https://github.com/Vectari" target=_blank style="text-decoration: none"><img  class="skill-icon github-light" src="./resourses/images/github-icon-dark.png">
                     <figcaption>GitHub</figcaption></a></div>
             </div>
             <br>
             <div class="project-div">
                 <h2>My projects:</h2>
             </div>
+
+            <script>
+                function myFunction() {
+                   var element = document.body;
+                   element.classList.toggle("light-mode");
+                }
+                </script>
         </main>
         <footer>
 
