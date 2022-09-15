@@ -1,6 +1,7 @@
 # vectari.github.io
 ## This webpage is my portfolio where you can find a little information about me, find my GitHub and LinkedIn profile.
-__________
+
+```
 Folder and file structur:
     vectari.github.io
             |
@@ -20,4 +21,4 @@ Folder and file structur:
             |               |
             |               |-> index-style.css - with all CSS style rules for index.html
             |
-        
+```       
