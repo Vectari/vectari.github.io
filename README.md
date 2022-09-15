@@ -8,17 +8,17 @@ Folder and file structur:
             index.html - main page with all leyout of website, and Javascript in the end of body (main) part
             |
             |-> resourses folder
-            |        |
-            |        |-> images folder - all images and icon used on website you can find here
-            |        |
-            |        |
-            |        |-> scripts - folder for JavaScript files 
-            |        |      |
-            |        |      |-> index-script.js (empty for now)
-            |        |
-            |        |
-            |        |-> stylesheet - folder for CSS files  
-            |               |
-            |               |-> index-style.css - with all CSS style rules for index.html
-            |
+                    |
+                    |-> images folder - all images and icon used on website you can find here
+                    |
+                    |
+                    |-> scripts - folder for JavaScript files 
+                    |      |
+                    |      |-> index-script.js (empty for now)
+                    |
+                    |
+                    |-> stylesheet - folder for CSS files  
+                           |
+                           |-> index-style.css - with all CSS style rules for index.html
+            
 ```       
