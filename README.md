@@ -14,11 +14,11 @@ Folder and file structur:
                     |
                     |-> scripts - folder for JavaScript files 
                     |      |
-                    |      |-> index-script.js (empty for now)
+                    |      |-> main.js - with all JavaScript for index.html
                     |
                     |
                     |-> stylesheet - folder for CSS files  
                            |
-                           |-> index-style.css - with all CSS style rules for index.html
+                           |-> style.css - with all CSS style rules for index.html
             
 ```       
