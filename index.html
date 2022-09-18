@@ -11,7 +11,7 @@
     <div>
         <nav>
             <p>Mateusz Majer</p>
-            <a onclick="myFunction()"><img class="icon sun-icon" src="./resourses/images/sun-icon.png"></a>
+            <a onclick="lightDarkFunction()"><img class="icon sun-icon" src="./resourses/images/sun-icon.png"></a>
             <a href="https://www.linkedin.com/in/mateusz-majer/" target=_blank><img class="icon linkedin-light" src="./resourses/images/linkedin-icon-dark.png" alt="linkedin icon"></a>
             <a href="https://github.com/Vectari" target=_blank><img class="icon github-light" src="./resourses/images/github-icon-dark.png" alt="github icon"></a>
         </nav>
@@ -27,6 +27,7 @@
                     bit more "computer stuff", so... Front-end web development. I  also like metalcore music, drums,  
                     King's and Lovecraft's books and dogs. Everybody like dogs :)
                 </p>
+
             </div>
             <br>
             <div class="skills-div">
@@ -51,11 +52,13 @@
             </div>
 
             <script>
-                function myFunction() {
-                   var element = document.body;
+                function lightDarkFunction() {
+                   const element = document.body;
                    element.classList.toggle("light-mode");
                 }
-                </script>
+                
+                
+            </script>
         </main>
         <footer>
 
