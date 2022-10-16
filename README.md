@@ -22,3 +22,10 @@ Folder and file structur:
                            |-> style.css - with all CSS style rules for index.html
             
 ```       
+Icon source:
+        GIT: https://icons8.com/icon/20906/git
+        CSS: https://icons8.com/icon/38272/css3
+        HTML: https://icons8.com/icon/7hA5Ny9rDAmV/html-5
+        JS: https://icons8.com/icon/108784/javascript
+        GitHub: https://icons8.com/icon/3tC9EQumUAuq/github
+        LinkedIn: https://icons8.com/icon/8808/linkedin
