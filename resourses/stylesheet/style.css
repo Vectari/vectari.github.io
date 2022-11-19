@@ -206,6 +206,17 @@ figcaption {
 
 /* PROJECT DIV */
 
+.project-div {
+  display: inline-block;
+  width: 100%;
+}
+
+.serduszka-dwa-page,
+.jamming-page {
+  display: inline-block;
+  margin: 5px;
+}
+
 .project-div h2 {
   color: #ffffff;
 }
