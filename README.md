@@ -29,3 +29,7 @@ Icon source:
         JS: https://icons8.com/icon/108784/javascript
         GitHub: https://icons8.com/icon/3tC9EQumUAuq/github
         LinkedIn: https://icons8.com/icon/8808/linkedin
+        React: https://icons8.com/icon/wPohyHO_qO1a/react
+        Redux: https://icons8.com/icon/A6r5yddU9uA0/redux
+
+        Icon in dark (#272935) mode have white (#ffffff) color, in light (#f8f8f8) mode icon have (#272935) color.

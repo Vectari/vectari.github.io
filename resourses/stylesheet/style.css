@@ -50,6 +50,14 @@ body div {
   content: url("../images/js-icon-light.png");
 }
 
+.light-mode .react-light {
+  content: url("../images/react-icon-light.png");
+}
+
+.light-mode .redux-light {
+  content: url("../images/redux-icon-light.png");
+}
+
 .light-mode .git-light {
   content: url("../images/git-icon-light.png");
 }
@@ -114,7 +122,7 @@ nav p {
     width: 270px;
     height: 270px;
     border-radius: 50%;
-    animation: spin1 35s linear infinite;
+    animation: spin1 110ss linear infinite;
     border: 2.5px dashed #2870dd;
   }
   
@@ -123,7 +131,7 @@ nav p {
     width: 250px;
     height: 250px;
     border-radius: 50%;
-    animation: spin2 40s linear infinite;
+    animation: spin2 120s linear infinite;
     border: 2.5px dashed #dd8f11;
   }
   
@@ -178,7 +186,11 @@ main p span {
 }
 
 .skill-icon {
-  width: 38px;
+  width: 37px;
+}
+
+.bigger-icon {   /* litte more px for icon for better look */
+  width: 39px;
 }
 
 figcaption {
