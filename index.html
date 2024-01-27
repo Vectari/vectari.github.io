@@ -1,75 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./resourses/stylesheet/style.css">
-    <link rel="icon" href="./resourses/images/favicon.jpg"/>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mateusz Majer</title>
-</head>
-<body>
-    <div>
-        <nav>
-            <p>Mateusz Majer</p>
-            <a onclick="lightDarkFunction()"><img class="icon sun-icon" src="./resourses/images/sun-icon.png"></a>
-            <a href="https://www.linkedin.com/in/mateusz-majer/" target=_blank><img class="icon linkedin-light" src="./resourses/images/linkedin-icon-dark.png" alt="linkedin icon"></a>
-            <a href="https://github.com/Vectari" target=_blank><img class="icon github-light" src="./resourses/images/github-icon-dark.png" alt="github icon"></a>
-        </nav>
-        <main>
-            <div class="photo-and-circle">
-                <div class="circle1"></div>
-                <div class="circle2"></div>
-                <img src="./resourses/images/my-photo.jpg" alt="my photo" width="300px" class="photo">
-            </div>
-            <div class="text-div">
-                <p class="text"><span>Hi, my name is Mateusz</span><br>
-                    and I'm 26 years old. After a few years of repairing computers, I decided to learn a 
-                    bit more "computer stuff", so... Front-end web development. I  also like metalcore music, drums,  
-                    King's and Lovecraft's books and dogs. Everybody like dogs :)
-                    <span class="moreText"><br><br>Coś tam coś tam coś tam, tralalala, test test test. Jeden dwa i trzy. 
-                        Cztery i pieć. Pozdrawiam Coś tam coś tam coś tam, tralalala, test test test. Jeden dwa i trzy. 
-                        Cztery i pieć. Pozdrawiam Coś tam coś tam coś tam, tralalala, test test test. Jeden dwa i trzy. 
-                        Cztery i pieć. Pozdrawiam
-                        Coś tam jeszze i jeszce i jeszcze.
-                    </span><br><br>
-                    <button class="readMoreButton">Read More</button>
-                </p>
-
-            </div>
-            <br>
-            <div class="skills-div">
-                <h2>I'm working with:</h2>
-                <div class="icon-and-capt"><img class="skill-icon html-light bigger-icon" src="./resourses/images/html5-icon-dark.png">
-                    <figcaption>HTML</figcaption></div>
-                <div class="icon-and-capt"><img class="skill-icon css-light bigger-icon" src="./resourses/images/css-icon-dark.png">
-                    <figcaption>CSS</figcaption></div>
-                <div class="icon-and-capt"><img class="skill-icon js-light bigger-icon" src="./resourses/images/js-icon-dark.png">
-                    <figcaption>JavaScript</figcaption></div>
-                <div class="icon-and-capt"><img class="skill-icon react-light" src="./resourses/images/react-icon-dark.png">
-                    <figcaption>React</figcaption></div>
-                <div class="icon-and-capt" style="display: none"><img class="skill-icon redux-light" src="./resourses/images/redux-icon-dark.png">       <!--   REDUX IS HIDDEN -->
-                    <figcaption>Redux</figcaption></div>
-                <div class="icon-and-capt"><img class="skill-icon git-light bigger-icon" src="./resourses/images/git-icon-dark.png">
-                    <figcaption>GIT</figcaption></div>
-                <div class="icon-and-capt"><a href="https://github.com/Vectari" target=_blank style="text-decoration: none"><img  class="skill-icon github-light bigger-icon" src="./resourses/images/github-icon-dark.png">
-                    <figcaption>GitHub</figcaption></a></div>
-            </div>
-            <br>
-            <div class="project-div">
-                <h2>My projects:</h2>
-                <a class="serduszka-dwa-page" href="https://serduszkadwa.pl/" target="_blank" style="text-decoration: none"><img src="./resourses/images/serduszka-dwa.png"><figcaption>"Serduszka Dwa" Website</figcaption></a>
-                <a class="jamming-page" href="https://vectari.github.io/Jamming/" target="_blank" style="text-decoration: none"><img src="./resourses/images/jamming.png"><figcaption>Jamming - Playlist creator for Spotify</figcaption></a>
-                <br>
-                <br>
-                <form action="https://github.com/Vectari" target=_blank><input type="submit" value="More on my GitHub" /></form>
-            </div>
-
-            <script src="./resourses/scripts/main.js"></script>
-        </main>
-        <footer>
-
-        </footer>
-    </div>
-</body>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
