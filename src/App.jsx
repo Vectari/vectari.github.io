@@ -9,6 +9,7 @@ function App() {
     <>
       <StyledH1>Test</StyledH1>
       <h2>test h2</h2>
+      <h3>test h3</h3>
     </>
   );
 }
