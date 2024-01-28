@@ -22,6 +22,7 @@ const StyledImg = styled.img`
   margin-right: auto;
   width: 150px;
   border-radius: 30px;
+  background-color: aqua;
   /* box-shadow: 10px 5px 5px red; */
 `;
 
