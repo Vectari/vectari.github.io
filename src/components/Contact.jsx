@@ -4,6 +4,7 @@ import { FaMapLocationDot } from "react-icons/fa6";
 import { MdOutlineAlternateEmail } from "react-icons/md";
 import { CiLinkedin } from "react-icons/ci";
 import { BiLogoGithub } from "react-icons/bi";
+import { Theme } from "../Theme";
 // import { Theme } from "../Theme";
 
 // const ContactWrapper = styled.div`
@@ -22,10 +23,12 @@ const Wrapper = styled.div`
 const Sidebar = styled.nav`
   width: 40px;
   height: 200px;
-  background-color: #333;
-  color: white;
+  background-color: ${Theme.colors.secondary};
+  color: ${Theme.colors.maintext};
+  border-radius: 10px;
   position: fixed;
   bottom: 20px;
+  right: 10px;
   &:hover {
     width: 140px;
   }
@@ -33,11 +36,11 @@ const Sidebar = styled.nav`
 const NavItem = styled.a`
   display: block;
   padding: 10px;
-  color: white;
+  color: ${Theme.colors.maintext};
   text-decoration: none;
 
   &:hover {
-    background-color: #555;
+    background-color: ${Theme.colors.hover};
   }
 `;
 
