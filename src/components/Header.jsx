@@ -2,6 +2,8 @@ import styled from "styled-components";
 import { Theme } from "../Theme";
 
 const StyledH1 = styled.h1`
+  border-top: 1px solid ${Theme.colors.secondary};
+  padding-top: 15px;
   text-align: center;
   color: ${Theme.colors.testgold};
 `;
@@ -71,7 +73,6 @@ export function Header() {
         My name is Mateusz <StyledSpan>🖖</StyledSpan>
       </StyledH2>
       <StyledH3>Aspiring Junior React Developer</StyledH3>
-      <StyledImg src="/myphoto.jpg" alt="Mateusz Majer's photo" />
       <StyledImg
         src="/myphotonobg.PNG"
         alt="Mateusz Majer's photo no background"
