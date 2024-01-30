@@ -1,13 +1,21 @@
+import { BsFillTelephoneFill } from "react-icons/bs";
+import { FaMapLocationDot } from "react-icons/fa6";
+import { MdOutlineAlternateEmail } from "react-icons/md";
+import { CiLinkedin } from "react-icons/ci";
+import { BiLogoGithub } from "react-icons/bi";
+
 export function Contact() {
   return (
     <>
       <h1>Contact</h1>
       <ul>
-        <li>Telefon</li>
-        <li>miasto</li>
-        <li>mail</li>
-        <li>linkedin</li>
-        <li>github</li>
+        <BsFillTelephoneFill />
+        <FaMapLocationDot />
+        <MdOutlineAlternateEmail />
+
+        <CiLinkedin />
+
+        <BiLogoGithub />
       </ul>
     </>
   );
