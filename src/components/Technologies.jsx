@@ -10,35 +10,35 @@ export function Technologies() {
   return (
     <>
       <h1>Main Technologies</h1>
-      <ul>
+      <div>
         <RiJavascriptLine />
         <TbBrandTypescript />
         <FaReact />
         <SiNextdotjs />
         <SiStyledcomponents />
-        <li>REST API</li>
+        <span>REST API</span>
         <BiLogoGit />
         <BiLogoGithub />
-      </ul>
+      </div>
       <h1>Secondary Technologies</h1>
-      <ul>
-        <li>Linux</li>
-        <li>jotai</li>
-        <li>Storybook</li>
-        <li>styled-components</li>
-        <li>Git</li>
-        <li>GitHub</li>
-      </ul>
+      <div>
+        <p>pnux</p>
+        <p>jotai</p>
+        <p>Storybook</p>
+        <p>styled-components</p>
+        <p>Git</p>
+        <p>GitHub</p>
+      </div>
       <h1>Soft Skills</h1>
-      <ul>
-        <li>Communication</li>
-        <li>Self-organizing</li>
-      </ul>
+      <div>
+        <p>Communication</p>
+        <p>Self-organizing</p>
+      </div>
       <h1>Languages</h1>
-      <ul>
-        <li>ENG</li>
-        <li>PL</li>
-      </ul>
+      <div>
+        <p>ENG</p>
+        <p>PL</p>
+      </div>
     </>
   );
 }

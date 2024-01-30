@@ -7,6 +7,7 @@ import { Technologies } from "./components/Technologies";
 function App() {
   return (
     <>
+      <Contact />
       <Header />
       <br />
       <br />
@@ -17,7 +18,6 @@ function App() {
       <Info />
       <Technologies />
       <Projects />
-      <Contact />
     </>
   );
 }
