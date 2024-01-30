@@ -1,6 +1,7 @@
 export const Theme = {
   colors: {
-    testgold: "gold",
-    testpink: "pink",
+    background: "#000",
+    maintext: "#FFF",
+    secondary: "#131313",
   },
 };
