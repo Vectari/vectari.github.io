@@ -19,12 +19,13 @@ const StyledImg = styled.img`
 export function Projects() {
   return (
     <>
-      <h1>Projects</h1>
       <ProjectsWrapper>
+        <h1>Projects</h1>
         <StyledImg src="/serduszkadwa.svg" alt="serduszkadwa logo" />
         <StyledImg src="/gamepadtester.svg" alt="gamepadtester logo" />
         <StyledImg src="/inbudget.svg" alt="inbudget logo" />
         <StyledImg src="/jamming.svg" alt="jamming logo" />
+        <StyledImg src="/moreongithub.svg" alt="moreongithub logo" />
       </ProjectsWrapper>
     </>
   );

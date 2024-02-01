@@ -19,9 +19,8 @@ const StyledLogo = styled.span`
 export function Technologies() {
   return (
     <>
-      <h1>Main Technologies</h1>
-      <div style={{display: "flex"}}>
       <TechnologiesWrapper>
+        <h1>Main Technologies</h1>
         <div>
           <StyledLogo>
             <SiJavascript />
@@ -47,28 +46,28 @@ export function Technologies() {
             <BiLogoGithub />
           </StyledLogo>
         </div>
+
+        <h1>Secondary Technologies</h1>
+        <div>
+          <p>REST API</p>
+          <p>pnux</p>
+          <p>jotai</p>
+          <p>Storybook</p>
+          <p>styled-components</p>
+          <p>Git</p>
+          <p>GitHub</p>
+        </div>
+        <h1>Soft Skills</h1>
+        <div>
+          <p>Communication</p>
+          <p>Self-organizing</p>
+        </div>
+        <h1>Languages</h1>
+        <div>
+          <p>ENG</p>
+          <p>PL</p>
+        </div>
       </TechnologiesWrapper>
-      </div>
-      {/* <h1>Secondary Technologies</h1>
-      <div>
-        <p>REST API</p>
-        <p>pnux</p>
-        <p>jotai</p>
-        <p>Storybook</p>
-        <p>styled-components</p>
-        <p>Git</p>
-        <p>GitHub</p>
-      </div>
-      <h1>Soft Skills</h1>
-      <div>
-        <p>Communication</p>
-        <p>Self-organizing</p>
-      </div>
-      <h1>Languages</h1>
-      <div>
-        <p>ENG</p>
-        <p>PL</p>
-      </div> */}
     </>
   );
 }
