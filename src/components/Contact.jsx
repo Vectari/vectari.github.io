@@ -38,9 +38,11 @@ const NavItem = styled.a`
   padding: 10px;
   color: ${Theme.colors.maintext};
   text-decoration: none;
+  overflow: hidden;
 
   &:hover {
     background-color: ${Theme.colors.hover};
+    border-radius: 10px;
   }
 `;
 

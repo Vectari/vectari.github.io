@@ -10,5 +10,6 @@ body {
   padding-top: 32px;
   color: white;
   background-color: black;
+  max-width: 1200px;
   width: 90%;
 }

@@ -1,7 +1,14 @@
+import styled from "styled-components";
+
+const StyledInfo = styled.p`
+  
+
+`;
+
 export function Info() {
   return (
     <>
-      <p>
+      <StyledInfo>
         I have been learning programming since 2022 to become a Frontend
         Developer. React is my primary technology, but I am eager to seize every
         opportunity to broaden my horizons. Notable achievements include
@@ -16,7 +23,7 @@ export function Info() {
         novels about elves. I play the drums and guitar, and I enjoy listening
         to loud music. Black humor amuses me, and since my the first
         &ldquo;Hello world&ldquo;, I&apos;ve been drinking too much coffee.
-      </p>
+      </StyledInfo>
     </>
   );
 }

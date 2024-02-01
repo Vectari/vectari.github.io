@@ -1,27 +1,57 @@
-import { RiJavascriptLine } from "react-icons/ri";
-import { TbBrandTypescript } from "react-icons/tb";
+import styled from "styled-components";
+import { SiJavascript } from "react-icons/si";
+import { SiTypescript } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { SiNextdotjs } from "react-icons/si";
 import { SiStyledcomponents } from "react-icons/si";
 import { BiLogoGit } from "react-icons/bi";
 import { BiLogoGithub } from "react-icons/bi";
 
+const TechnologiesWrapper = styled.div`
+  text-align: center;
+`;
+
+const StyledLogo = styled.span`
+  padding-right: 25px;
+  font-size: 50px;
+`;
+
 export function Technologies() {
   return (
     <>
       <h1>Main Technologies</h1>
-      <div>
-        <RiJavascriptLine />
-        <TbBrandTypescript />
-        <FaReact />
-        <SiNextdotjs />
-        <SiStyledcomponents />
-        <span>REST API</span>
-        <BiLogoGit />
-        <BiLogoGithub />
+      <div style={{display: "flex"}}>
+      <TechnologiesWrapper>
+        <div>
+          <StyledLogo>
+            <SiJavascript />
+          </StyledLogo>
+          <StyledLogo>
+            <SiTypescript />
+          </StyledLogo>
+          <StyledLogo>
+            <FaReact />
+          </StyledLogo>
+          <StyledLogo>
+            <SiNextdotjs />
+          </StyledLogo>
+        </div>
+        <div>
+          <StyledLogo>
+            <SiStyledcomponents />
+          </StyledLogo>
+          <StyledLogo>
+            <BiLogoGit />
+          </StyledLogo>
+          <StyledLogo>
+            <BiLogoGithub />
+          </StyledLogo>
+        </div>
+      </TechnologiesWrapper>
       </div>
-      <h1>Secondary Technologies</h1>
+      {/* <h1>Secondary Technologies</h1>
       <div>
+        <p>REST API</p>
         <p>pnux</p>
         <p>jotai</p>
         <p>Storybook</p>
@@ -38,7 +68,7 @@ export function Technologies() {
       <div>
         <p>ENG</p>
         <p>PL</p>
-      </div>
+      </div> */}
     </>
   );
 }
