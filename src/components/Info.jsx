@@ -1,12 +1,21 @@
 export function Info() {
   return (
     <>
-      <h1>Info</h1>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, impedit
-        cupiditate hic reprehenderit mollitia dolores expedita architecto
-        voluptatibus tempore in provident deserunt et aperiam natus consequuntur
-        consequatur, itaque, at facilis!
+        I have been learning programming since 2022 to become a Frontend
+        Developer. React is my primary technology, but I am eager to seize every
+        opportunity to broaden my horizons. Notable achievements include
+        creating a website for a real company - Matchmaking Office
+        &ldquo;Serduszka Dwa&ldquo;. Additionally, I participated in intive
+        Patronage 2023, where as a member of the frontend and backend
+        development team, I created a budget management application.
+        <br />
+        <br />
+        Apart from programming, I love spending time in the forest, preferably
+        in a hammock with a good non-fiction book, although I also respect
+        novels about elves. I play the drums and guitar, and I enjoy listening
+        to loud music. Black humor amuses me, and since my the first
+        &ldquo;Hello world&ldquo;, I&apos;ve been drinking too much coffee.
       </p>
     </>
   );
