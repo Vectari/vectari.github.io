@@ -4,5 +4,6 @@ export const Theme = {
     maintext: "#FFF",
     secondary: "#333",
     hover: "#555",
+    secondaryTransparent: "#33333396",
   },
 };

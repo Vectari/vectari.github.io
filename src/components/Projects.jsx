@@ -10,9 +10,11 @@ const StyledImg = styled.img`
   border-radius: 10px;
   padding: 20px;
   margin: 10px;
+  transition: 0.3s;
 
   &:hover {
     background-color: ${Theme.colors.hover};
+    border: 2px solid ${Theme.colors.hover};
   }
 `;
 
