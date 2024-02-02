@@ -27,7 +27,9 @@ export function Projects() {
         <StyledImg src="/gamepadtester.svg" alt="gamepadtester logo" />
         <StyledImg src="/inbudget.svg" alt="inbudget logo" />
         <StyledImg src="/jamming.svg" alt="jamming logo" />
-        <StyledImg src="/moreongithub.svg" alt="moreongithub logo" />
+        <a href="https://github.com/Vectari">
+          <StyledImg src="/moreongithub.svg" alt="moreongithub logo" />
+        </a>
       </ProjectsWrapper>
     </>
   );
