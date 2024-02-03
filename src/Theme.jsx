@@ -6,4 +6,8 @@ export const Theme = {
     hover: "#555",
     secondaryTransparent: "#33333396",
   },
+  width: {
+    mobile: "375px",
+    tablet: "768px",
+  },
 };

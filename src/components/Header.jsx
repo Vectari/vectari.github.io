@@ -1,8 +1,18 @@
 import styled from "styled-components";
 import { Theme } from "../Theme";
 
+const HeaderWrapper = styled.div`
+  display: flex;
+  min-width: 300px;
+  max-width: 780px;
+  flex-wrap: wrap;
+`;
+
+const TextWrapper = styled.div``;
+
+const ImgWrapper = styled.div``;
+
 const StyledH1 = styled.h1`
-  border-top: 1px solid ${Theme.colors.secondary};
   padding-top: 15px;
   text-align: center;
   color: ${Theme.colors.testgold};
@@ -25,7 +35,9 @@ const StyledImg = styled.img`
   width: 150px;
   border-radius: 30px;
   background-color: ${Theme.colors.secondary};
-  /* box-shadow: 10px 5px 5px red; */
+  @media only screen and (max-width: 459px) {
+    margin-top: 40px;
+  }
 `;
 
 const StyledSpan = styled.span`
@@ -67,16 +79,20 @@ const StyledSpan = styled.span`
 
 export function Header() {
   return (
-    <>
-      <StyledH1>Hello there!</StyledH1>
-      <StyledH2>
-        My name is Mateusz <StyledSpan>🖖</StyledSpan>
-      </StyledH2>
-      <StyledH3>Aspiring Junior React Developer</StyledH3>
-      <StyledImg
-        src="/myphotonobg.PNG"
-        alt="Mateusz Majer's photo no background"
-      />
-    </>
+    <HeaderWrapper>
+      <TextWrapper>
+        <StyledH1>Hello there!</StyledH1>
+        <StyledH2>
+          My name is Mateusz <StyledSpan>🖖</StyledSpan>
+        </StyledH2>
+        <StyledH3>Aspiring Junior React Developer</StyledH3>
+      </TextWrapper>
+      <ImgWrapper>
+        <StyledImg
+          src="/myphotonobg.PNG"
+          alt="Mateusz Majer's photo no background"
+        />
+      </ImgWrapper>
+    </HeaderWrapper>
   );
 }
