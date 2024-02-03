@@ -1,6 +1,17 @@
 import styled, { keyframes } from "styled-components";
 import { Theme } from "../Theme";
 
+const HeaderWrapper = styled.div`
+  display: flex;
+  min-width: 300px;
+  max-width: 780px;
+  flex-wrap: wrap;
+`;
+
+const TextWrapper = styled.div``;
+
+const ImgWrapper = styled.div``;
+
 const fadeInH1 = keyframes`
   from {
     opacity: 0;
@@ -8,6 +19,17 @@ const fadeInH1 = keyframes`
 
   to {
     opacity: 1;
+  }
+`;
+
+const StyledH1 = styled.h1`
+  padding-top: 15px;
+  text-align: center;
+  color: ${Theme.colors.testgold};
+  animation: ${fadeInH1} 1s ease-in;
+  @media only screen and (min-width: ${Theme.width.tablet}) {
+    scale: calc(1.3);
+    margin-top: 20px;
   }
 `;
 
@@ -25,6 +47,15 @@ const fadeInH2 = keyframes`
   }
 `;
 
+const StyledH2 = styled.h2`
+  text-align: center;
+  animation: ${fadeInH2} 2s ease-in;
+  @media only screen and (min-width: ${Theme.width.tablet}) {
+    scale: calc(1.3);
+    margin-top: 20px;
+  }
+`;
+
 const fadeInH3_Img = keyframes`
   0% {
     opacity: 0;
@@ -36,37 +67,6 @@ const fadeInH3_Img = keyframes`
 
   80% {
     opacity: 1;
-  }
-`;
-
-const HeaderWrapper = styled.div`
-  display: flex;
-  min-width: 300px;
-  max-width: 780px;
-  flex-wrap: wrap;
-`;
-
-const TextWrapper = styled.div``;
-
-const ImgWrapper = styled.div``;
-
-const StyledH1 = styled.h1`
-  padding-top: 15px;
-  text-align: center;
-  color: ${Theme.colors.testgold};
-  animation: ${fadeInH1} 1s ease-in;
-  @media only screen and (min-width: ${Theme.width.tablet}) {
-    scale: calc(1.3);
-    margin-top: 20px;
-  }
-`;
-
-const StyledH2 = styled.h2`
-  text-align: center;
-  animation: ${fadeInH2} 2s ease-in;
-  @media only screen and (min-width: ${Theme.width.tablet}) {
-    scale: calc(1.3);
-    margin-top: 20px;
   }
 `;
 

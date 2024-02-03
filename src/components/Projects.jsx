@@ -16,6 +16,11 @@ const StyledImg = styled.img`
     background-color: ${Theme.colors.hover};
     border: 2px solid ${Theme.colors.hover};
   }
+
+  @media only screen and (max-width: ${Theme.width.tablet}) {
+    padding: 10px;
+    margin: 5px;
+  }
 `;
 
 export function Projects() {

@@ -9,15 +9,18 @@ import { Technologies } from "./components/Technologies";
 
 const bodyup = keyframes`
   0% {
-    transform: translateY(1000px)
+    transform: translateY(1000px);
+    opacity: 0;
   }
 
   70% {
-    transform: translateY(1000px)
+    transform: translateY(1000px);
+    opacity: 0;
   }
 
   100% {
-    transform: translateY(0)
+    transform: translateY(0);
+    opacity: 1;
   }
 `;
 

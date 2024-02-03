@@ -20,6 +20,7 @@ import { Theme } from "../Theme";
 const Wrapper = styled.div`
   display: flex;
 `;
+
 const Sidebar = styled.nav`
   text-align: center;
   width: 50px;
@@ -36,7 +37,12 @@ const Sidebar = styled.nav`
     text-align: left;
     width: 270px;
   }
+
+  @media only screen and (min-width: 1450px) {
+    right: 100px;
+  }
 `;
+
 const NavItem = styled.a`
   font-size: 20px;
   display: block;
