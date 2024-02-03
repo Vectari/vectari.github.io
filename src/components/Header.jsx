@@ -1,5 +1,43 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 import { Theme } from "../Theme";
+
+const fadeInH1 = keyframes`
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+`;
+
+const fadeInH2 = keyframes`
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  80% {
+    opacity: 1;
+  }
+`;
+
+const fadeInH3_Img = keyframes`
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  80% {
+    opacity: 1;
+  }
+`;
 
 const HeaderWrapper = styled.div`
   display: flex;
@@ -16,25 +54,41 @@ const StyledH1 = styled.h1`
   padding-top: 15px;
   text-align: center;
   color: ${Theme.colors.testgold};
+  animation: ${fadeInH1} 1s ease-in;
+  @media only screen and (min-width: ${Theme.width.tablet}) {
+    scale: calc(1.3);
+    margin-top: 20px;
+  }
 `;
 
 const StyledH2 = styled.h2`
   text-align: center;
-  color: ${Theme.colors.testpink};
+  animation: ${fadeInH2} 2s ease-in;
+  @media only screen and (min-width: ${Theme.width.tablet}) {
+    scale: calc(1.3);
+    margin-top: 20px;
+  }
 `;
 
 const StyledH3 = styled.h3`
   text-align: center;
   color: ${Theme.colors.testpink};
+  animation: ${fadeInH3_Img} 3s ease-in;
+  @media only screen and (min-width: ${Theme.width.tablet}) {
+    scale: calc(1.3);
+    margin-top: 20px;
+  }
 `;
 
 const StyledImg = styled.img`
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 150px;
+  width: 190px;
   border-radius: 30px;
   background-color: ${Theme.colors.secondary};
+  margin-bottom: 57px;
+  animation: ${fadeInH3_Img} 3s ease-in;
   @media only screen and (max-width: 459px) {
     margin-top: 40px;
   }
