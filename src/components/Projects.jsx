@@ -9,7 +9,7 @@ const StyledImg = styled.img`
   border: 2px solid white;
   border-radius: 10px;
   padding: 20px;
-  margin: 10px;
+  margin: 10px; 
   transition: 0.3s;
 
   &:hover {

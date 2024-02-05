@@ -5,8 +5,6 @@ import { Projects } from "./components/Projects";
 import { Contact } from "./components/Contact";
 import { Technologies } from "./components/Technologies";
 
-
-
 const bodyup = keyframes`
   0% {
     transform: translateY(1000px);
@@ -31,12 +29,12 @@ const StyledBody = styled.div`
 function App() {
   return (
     <>
-      <Contact />
       <Header />
       <StyledBody>
         <Info />
         <Technologies />
         <Projects />
+        <Contact />
       </StyledBody>
     </>
   );
