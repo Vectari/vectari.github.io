@@ -41,4 +41,5 @@
   - Created a React website for Matchmaking Office “Serduszka Dwa“, a service company in Poland.
 - **Gamepad Tester (Personal Project):**
   - Diagnostic tool in Next.js for diagnosing faulty gamepad buttons and sticks.
-    Let's connect and collaborate! 🚀
+    
+Let's connect and collaborate! 🚀
