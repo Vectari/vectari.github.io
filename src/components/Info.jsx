@@ -1,29 +1,29 @@
 import styled from "styled-components";
+import { Theme } from "../Theme";
 
 const StyledInfo = styled.p`
-  
-
+  font-size: 22px;
+  text-align: center;
+  padding-bottom: 30px;
+  @media only screen and (max-width: ${Theme.width.tablet}) {
+    font-size: 18px;
+  }
 `;
 
 export function Info() {
   return (
     <>
       <StyledInfo>
-        I have been learning programming since 2022 to become a Frontend
-        Developer. React is my primary technology, but I am eager to seize every
-        opportunity to broaden my horizons. Notable achievements include
-        creating a website for a real company - Matchmaking Office
-        &ldquo;Serduszka Dwa&ldquo;. Additionally, I participated in intive
-        Patronage 2023, where as a member of the frontend and backend
-        development team, I created a budget management application.
-        <br />
-        <br />
-        Apart from programming, I love spending time in the forest, preferably
-        in a hammock with a good non-fiction book, although I also respect
-        novels about elves. I play the drums and guitar, and I enjoy listening
-        to loud music. Black humor amuses me, and since my the first
-        &ldquo;Hello world&ldquo;, I&apos;ve been drinking too much coffee.
+        I&lsquo;m a passionate Frontend Developer on a journey of continuous
+        learning and exploration since 2022. My primary focus is on mastering
+        React, but I am always excited to embrace new challenges and expand my
+        skill set. With a knack for creating impactful web experiences,
+        I&lsquo;ve already made my mark by developing a website for the real
+        company &ldquo;Matchmaking Office Serduszka Dwa&ldquo; and contributing
+        to the intive Patronage 2023 project.
       </StyledInfo>
     </>
   );
 }
+
+// &ldquo;

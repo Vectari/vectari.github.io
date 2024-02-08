@@ -6,22 +6,53 @@ import { SiNextdotjs } from "react-icons/si";
 import { SiStyledcomponents } from "react-icons/si";
 import { BiLogoGit } from "react-icons/bi";
 import { BiLogoGithub } from "react-icons/bi";
+import { Theme } from "../Theme";
 
 const TechnologiesWrapper = styled.div`
   text-align: center;
 `;
 
+const LogoWrapper = styled.div`
+  display: flex;
+  margin: 20px 0;
+`;
+
 const StyledLogo = styled.span`
   padding-right: 25px;
-  font-size: 50px;
+  font-size: 35px;
+  @media only screen and (max-width: ${Theme.width.tablet}) {
+    font-size: 25px;
+  }
+`;
+
+const StyledH1 = styled.h1`
+  padding: 15px 0 10px 0;
+`;
+
+const StyledTable = styled.table`
+  font-size: 20px;
+  @media only screen and (max-width: ${Theme.width.tablet}) {
+    font-size: 16px;
+  }
+`;
+
+const StyledTr = styled.tr``;
+
+const StyledTd = styled.td`
+  padding: 10px 0px 10px 15px;
+  text-align: left;
+`;
+
+const StyledLeftSide = styled.div`
+  font-weight: bold;
+  text-align: right;
 `;
 
 export function Technologies() {
   return (
     <>
       <TechnologiesWrapper>
-        <h1>Main Technologies</h1>
-        <div>
+        <LogoWrapper>
           <StyledLogo>
             <SiJavascript />
           </StyledLogo>
@@ -34,8 +65,6 @@ export function Technologies() {
           <StyledLogo>
             <SiNextdotjs />
           </StyledLogo>
-        </div>
-        <div>
           <StyledLogo>
             <SiStyledcomponents />
           </StyledLogo>
@@ -45,28 +74,145 @@ export function Technologies() {
           <StyledLogo>
             <BiLogoGithub />
           </StyledLogo>
-        </div>
+        </LogoWrapper>
+        <StyledH1>🛠️ Technology Stack</StyledH1>
 
-        <h1>Secondary Technologies</h1>
-        <div>
-          <p>REST API</p>
-          <p>pnux</p>
-          <p>jotai</p>
-          <p>Storybook</p>
-          <p>styled-components</p>
-          <p>Git</p>
-          <p>GitHub</p>
-        </div>
-        <h1>Soft Skills</h1>
-        <div>
-          <p>Communication</p>
-          <p>Self-organizing</p>
-        </div>
-        <h1>Languages</h1>
-        <div>
-          <p>ENG</p>
-          <p>PL</p>
-        </div>
+        <StyledTable>
+          <StyledTr>
+            <StyledTd>
+              <StyledLeftSide>Languages:</StyledLeftSide>
+            </StyledTd>
+            <StyledTd>JavaScript, TypeScript</StyledTd>
+          </StyledTr>
+          <StyledTr>
+            <StyledTd>
+              <StyledLeftSide>Libraries/Frameworks:</StyledLeftSide>
+            </StyledTd>
+            <StyledTd>React.js, Next.js</StyledTd>
+          </StyledTr>
+          <StyledTr>
+            <StyledTd>
+              <StyledLeftSide>Styling:</StyledLeftSide>
+            </StyledTd>
+            <StyledTd>CSS, styled-components</StyledTd>
+          </StyledTr>
+          <StyledTr>
+            <StyledTd>
+              <StyledLeftSide>State Management:</StyledLeftSide>
+            </StyledTd>
+            <StyledTd>jotai</StyledTd>
+          </StyledTr>
+          <StyledTr>
+            <StyledTd>
+              <StyledLeftSide>Storytelling:</StyledLeftSide>
+            </StyledTd>
+            <StyledTd>Storybook</StyledTd>
+          </StyledTr>
+          <StyledTr>
+            <StyledTd>
+              <StyledLeftSide>Version Control:</StyledLeftSide>
+            </StyledTd>
+            <StyledTd>Git, GitHub</StyledTd>
+          </StyledTr>
+          <StyledTr>
+            <StyledTd>
+              <StyledLeftSide>APIs:</StyledLeftSide>
+            </StyledTd>
+            <StyledTd>REST API</StyledTd>
+          </StyledTr>
+          <StyledTr>
+            <StyledTd>
+              <StyledLeftSide>Others:</StyledLeftSide>
+            </StyledTd>
+            <StyledTd>HTML5, Linux</StyledTd>
+          </StyledTr>
+        </StyledTable>
+        <StyledH1>🌈 Soft Skills</StyledH1>
+        <StyledTable>
+          <StyledTr>
+            <StyledTd>
+              <StyledLeftSide>Communication:</StyledLeftSide>
+            </StyledTd>
+            <StyledTd>Clear and effective communication.</StyledTd>
+          </StyledTr>
+          <StyledTr>
+            <StyledTd>
+              <StyledLeftSide>Respectfulness:</StyledLeftSide>
+            </StyledTd>
+            <StyledTd>Valuing diverse perspectives.</StyledTd>
+          </StyledTr>
+          <StyledTr>
+            <StyledTd>
+              <StyledLeftSide>Collaboration Skills:</StyledLeftSide>
+            </StyledTd>
+            <StyledTd>Thriving in a team-oriented environment.</StyledTd>
+          </StyledTr>
+          <StyledTr>
+            <StyledTd>
+              <StyledLeftSide>Self-Organizing:</StyledLeftSide>
+            </StyledTd>
+            <StyledTd>Efficiently managing tasks and deadlines.</StyledTd>
+          </StyledTr>
+          <StyledTr>
+            <StyledTd>
+              <StyledLeftSide>Creativity:</StyledLeftSide>
+            </StyledTd>
+            <StyledTd>Bringing innovative solutions to the table.</StyledTd>
+          </StyledTr>
+          <StyledTr>
+            <StyledTd>
+              <StyledLeftSide>Analytical Thinking:</StyledLeftSide>
+            </StyledTd>
+            <StyledTd>
+              Tackling challenges with a problem-solving mindset.
+            </StyledTd>
+          </StyledTr>
+        </StyledTable>
+        <StyledH1>📚 About Me</StyledH1>
+        <StyledTable>
+          <StyledTr>
+            <StyledTd>
+              <StyledLeftSide>Nature Lover:</StyledLeftSide>
+            </StyledTd>
+            <StyledTd>
+              Enjoying the tranquility of the forest, ideally in a hammock with
+              a captivating non-fiction book (or an elf novel for a change).
+            </StyledTd>
+          </StyledTr>
+          <StyledTr>
+            <StyledTd>
+              <StyledLeftSide>Music Enthusiast:</StyledLeftSide>
+            </StyledTd>
+            <StyledTd>
+              Playing the drums and guitar, and immersing myself in the world of
+              loud music.
+            </StyledTd>
+          </StyledTr>
+          <StyledTr>
+            <StyledTd>
+              <StyledLeftSide>Coffee Aficionado:</StyledLeftSide>
+            </StyledTd>
+            <StyledTd>
+              Ever since my first &ldquo; Hello world&ldquo;, coffee has been my
+              loyal companion.
+            </StyledTd>
+          </StyledTr>
+        </StyledTable>
+        <StyledH1>🌐 Languages</StyledH1>
+        <StyledTable>
+          <StyledTr>
+            <StyledTd>
+              <StyledLeftSide>Polish:</StyledLeftSide>
+            </StyledTd>
+            <StyledTd>Native</StyledTd>
+          </StyledTr>
+          <StyledTr>
+            <StyledTd>
+              <StyledLeftSide>English:</StyledLeftSide>
+            </StyledTd>
+            <StyledTd>B2</StyledTd>
+          </StyledTr>
+        </StyledTable>
       </TechnologiesWrapper>
     </>
   );
