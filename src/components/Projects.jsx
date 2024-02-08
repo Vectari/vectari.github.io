@@ -5,11 +5,16 @@ const ProjectsWrapper = styled.div`
   text-align: center;
 `;
 
+const StyledH1 = styled.h1`
+  padding: 15px 0 10px 0;
+  border-top: 1px solid ${Theme.colors.secondary};
+`;
+
 const StyledImg = styled.img`
   border: 2px solid white;
   border-radius: 10px;
   padding: 20px;
-  margin: 10px; 
+  margin: 10px;
   transition: 0.3s;
 
   &:hover {
@@ -27,7 +32,7 @@ export function Projects() {
   return (
     <>
       <ProjectsWrapper>
-        <h1>Projects</h1>
+        <StyledH1>🧑‍💻 Key Projects</StyledH1>
         <StyledImg src="/serduszkadwa.svg" alt="serduszkadwa logo" />
         <StyledImg src="/gamepadtester.svg" alt="gamepadtester logo" />
         <StyledImg src="/inbudget.svg" alt="inbudget logo" />

@@ -20,13 +20,21 @@ const LogoWrapper = styled.div`
 const StyledLogo = styled.span`
   padding-right: 25px;
   font-size: 35px;
+  color: ${Theme.colors.hover};
   @media only screen and (max-width: ${Theme.width.tablet}) {
     font-size: 25px;
+  }
+
+  &:hover {
+    scale: calc(1.3);
+    transition: 0.5s;
+    color: ${Theme.colors.maintext};
   }
 `;
 
 const StyledH1 = styled.h1`
   padding: 15px 0 10px 0;
+  border-top: 1px solid ${Theme.colors.secondary};
 `;
 
 const StyledTable = styled.table`
@@ -46,6 +54,7 @@ const StyledTd = styled.td`
 const StyledLeftSide = styled.div`
   font-weight: bold;
   text-align: right;
+  color: ${Theme.colors.hover};
 `;
 
 export function Technologies() {

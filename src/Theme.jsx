@@ -1,7 +1,7 @@
 export const Theme = {
   colors: {
     background: "#000",
-    maintext: "#FFF",
+    maintext: "#e7e7e7",
     secondary: "#333",
     hover: "#555",
     secondaryTransparent: "#33333396",
