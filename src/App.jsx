@@ -26,16 +26,37 @@ const StyledBody = styled.div`
   animation: ${bodyup} 3s;
 `;
 
+const contactup = keyframes`
+    0% {
+    opacity: 0;
+  }
+
+  70% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+`;
+
+const StyledContactUp = styled.div`
+  animation: ${contactup} 3.5s;
+`;
+
 function App() {
   return (
     <>
       <Header />
+
       <StyledBody>
         <Info />
         <Technologies />
         <Projects />
-        <Contact />
       </StyledBody>
+      <StyledContactUp>
+        <Contact />
+      </StyledContactUp>
     </>
   );
 }

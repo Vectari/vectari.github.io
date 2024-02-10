@@ -96,11 +96,19 @@ export function Contact() {
           <MdOutlineAlternateEmail />
           <HoverText>mateusz.majer996@gmail.com</HoverText>
         </NavItem>
-        <NavItem href="https://www.linkedin.com/in/mateusz-majer/">
+        <NavItem
+          href="https://www.linkedin.com/in/mateusz-majer/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <CiLinkedin />
           <HoverText>linkedin.com/in/mateusz-majer/</HoverText>
         </NavItem>
-        <NavItem href="https://github.com/Vectari">
+        <NavItem
+          href="https://github.com/Vectari"
+          target="_blank"
+          rel="noreferrer"
+        >
           <BiLogoGithub />
           <HoverText>github.com/Vectari</HoverText>
         </NavItem>
