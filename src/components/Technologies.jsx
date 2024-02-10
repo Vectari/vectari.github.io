@@ -194,7 +194,7 @@ export function Technologies() {
             </StyledTd>
             <StyledTd>
               Playing the drums and guitar, and immersing myself in the world of
-              loud music.
+              loud scream music.
             </StyledTd>
           </StyledTr>
           <StyledTr>
