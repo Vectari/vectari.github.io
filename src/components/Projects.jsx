@@ -33,11 +33,19 @@ export function Projects() {
     <>
       <ProjectsWrapper>
         <StyledH1>🧑‍💻 Key Projects</StyledH1>
-        <StyledImg src="/serduszkadwa.svg" alt="serduszkadwa logo" />
-        <StyledImg src="/gamepadtester.svg" alt="gamepadtester logo" />
-        <StyledImg src="/inbudget.svg" alt="inbudget logo" />
-        <StyledImg src="/jamming.svg" alt="jamming logo" />
-        <a href="https://github.com/Vectari">
+        <a href="https://www.serduszkadwa.pl/" target="_blank">
+          <StyledImg src="/serduszkadwa.svg" alt="serduszkadwa logo" />
+        </a>
+        <a href="https://gamepad-tester.vercel.app/" target="_blank">
+          <StyledImg src="/gamepadtester.svg" alt="gamepadtester logo" />
+        </a>
+        <a href="https://github.com/intive/patronage2023-js" target="_blank">
+          <StyledImg src="/inbudget.svg" alt="inbudget logo" />
+        </a>
+        <a href="https://github.com/Vectari/Jamming" target="_blank">
+          <StyledImg src="/jamming.svg" alt="jamming logo" />
+        </a>
+        <a href="https://github.com/Vectari" target="_blank">
           <StyledImg src="/moreongithub.svg" alt="moreongithub logo" />
         </a>
       </ProjectsWrapper>
