@@ -32,7 +32,7 @@ export function Projects() {
   return (
     <>
       <ProjectsWrapper>
-        <StyledH1>🧑‍💻 Key Projects</StyledH1>
+        <StyledH1>🔧 Key Projects</StyledH1>
         <a href="https://www.serduszkadwa.pl/" target="_blank" rel="noreferrer">
           <StyledImg src="/serduszkadwa.svg" alt="serduszkadwa logo" />
         </a>

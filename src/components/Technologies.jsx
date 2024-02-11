@@ -136,7 +136,7 @@ export function Technologies() {
             <StyledTd>HTML5, Linux</StyledTd>
           </StyledTr>
         </StyledTable>
-        <StyledH1>🌈 Soft Skills</StyledH1>
+        <StyledH1>🤝 Soft Skills</StyledH1>
         <StyledTable>
           <StyledTr>
             <StyledTd>
@@ -177,7 +177,7 @@ export function Technologies() {
             </StyledTd>
           </StyledTr>
         </StyledTable>
-        <StyledH1>📚 About Me</StyledH1>
+        <StyledH1>🙋‍♂️ About Me</StyledH1>
         <StyledTable>
           <StyledTr>
             <StyledTd>
