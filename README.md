@@ -7,7 +7,7 @@
 - **Languages:** JavaScript, TypeScript
 - **Frameworks:** React.js, Next.js
 - **Styling:** CSS, styled-components
-- **Tools:** Git, GitHub, REST API
+- **Tools:** Git, GitHub, API
 - **Other Skills:** HTML5, Linux, jotai, Storybook
 
 ## 🤝 Soft Skills

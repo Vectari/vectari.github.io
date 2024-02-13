@@ -125,15 +125,9 @@ export function Technologies() {
           </StyledTr>
           <StyledTr>
             <StyledTd>
-              <StyledLeftSide>APIs:</StyledLeftSide>
-            </StyledTd>
-            <StyledTd>REST API</StyledTd>
-          </StyledTr>
-          <StyledTr>
-            <StyledTd>
               <StyledLeftSide>Others:</StyledLeftSide>
             </StyledTd>
-            <StyledTd>HTML5, Linux</StyledTd>
+            <StyledTd>API, HTML5, Linux</StyledTd>
           </StyledTr>
         </StyledTable>
         <StyledH1>🤝 Soft Skills</StyledH1>
