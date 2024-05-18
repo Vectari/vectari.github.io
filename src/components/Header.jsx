@@ -92,6 +92,11 @@ const StyledButton = styled.button`
   border-radius: 30px;
   text-align: center;
   cursor: pointer;
+
+  &:hover {
+    scale: calc(1.05);
+    transition: 0.2s;
+  }
 `;
 
 const StyledImg = styled.img`
@@ -153,9 +158,9 @@ export function Header() {
         <StyledH2>
           My name is Mateusz <StyledSpan>🖖</StyledSpan>
         </StyledH2>
-        <StyledH3>Aspiring Junior React Developer</StyledH3>
-        <StyledButton>Contact me</StyledButton>
-        <StyledButton $secondary>Contact me</StyledButton>
+        <StyledH3>React Developer</StyledH3>
+        {/* <StyledButton>Contact me</StyledButton> */}
+        {/* <StyledButton $secondary>Contact me</StyledButton> */}
       </TextWrapper>
       <ImgWrapper>
         <StyledImg
