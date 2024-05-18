@@ -80,6 +80,20 @@ const StyledH3 = styled.h3`
   }
 `;
 
+const StyledButton = styled.button`
+  animation: ${fadeInH3_Img} 4s ease-in;
+  border: none;
+  color: ${Theme.colors.maintext};
+  background-color: ${(props) =>
+    props.$secondary ? `${Theme.colors.accent2}` : `${Theme.colors.accent}`};
+  font-size: 1.2rem;
+  margin: 15px;
+  padding: 15px;
+  border-radius: 30px;
+  text-align: center;
+  cursor: pointer;
+`;
+
 const StyledImg = styled.img`
   display: block;
   margin-left: auto;
@@ -140,6 +154,8 @@ export function Header() {
           My name is Mateusz <StyledSpan>🖖</StyledSpan>
         </StyledH2>
         <StyledH3>Aspiring Junior React Developer</StyledH3>
+        <StyledButton>Contact me</StyledButton>
+        <StyledButton $secondary>Contact me</StyledButton>
       </TextWrapper>
       <ImgWrapper>
         <StyledImg
