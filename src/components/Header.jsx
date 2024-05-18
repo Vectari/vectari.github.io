@@ -159,8 +159,8 @@ export function Header() {
           My name is Mateusz <StyledSpan>🖖</StyledSpan>
         </StyledH2>
         <StyledH3>React Developer</StyledH3>
-        <StyledButton>Contact me</StyledButton>
-        <StyledButton $secondary>Contact me</StyledButton>
+        {/* <StyledButton>Contact me</StyledButton> */}
+        {/* <StyledButton $secondary>Contact me</StyledButton> */}
       </TextWrapper>
       <ImgWrapper>
         <StyledImg
