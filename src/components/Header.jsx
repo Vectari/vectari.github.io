@@ -158,7 +158,7 @@ export function Header() {
         <StyledH2>
           My name is Mateusz <StyledSpan>🖖</StyledSpan>
         </StyledH2>
-        <StyledH3>Aspiring Junior React Developer</StyledH3>
+        <StyledH3>React Developer</StyledH3>
         <StyledButton>Contact me</StyledButton>
         <StyledButton $secondary>Contact me</StyledButton>
       </TextWrapper>
