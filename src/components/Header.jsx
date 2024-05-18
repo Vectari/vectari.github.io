@@ -92,6 +92,11 @@ const StyledButton = styled.button`
   border-radius: 30px;
   text-align: center;
   cursor: pointer;
+
+  &:hover {
+    scale: calc(1.05);
+    transition: 0.2s;
+  }
 `;
 
 const StyledImg = styled.img`
