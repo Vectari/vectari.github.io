@@ -28,7 +28,8 @@ const StyledLogo = styled.span`
   &:hover {
     scale: calc(1.3);
     transition: 0.5s;
-    color: ${Theme.colors.maintext};
+    color: ${(props) =>
+      props.$secondary ? `${Theme.colors.accent2}` : `${Theme.colors.accent}`};
   }
 `;
 
@@ -65,19 +66,19 @@ export function Technologies() {
           <StyledLogo>
             <SiJavascript />
           </StyledLogo>
-          <StyledLogo>
+          <StyledLogo $secondary>
             <SiTypescript />
           </StyledLogo>
           <StyledLogo>
             <FaReact />
           </StyledLogo>
-          <StyledLogo>
+          <StyledLogo $secondary>
             <SiNextdotjs />
           </StyledLogo>
           <StyledLogo>
             <SiStyledcomponents />
           </StyledLogo>
-          <StyledLogo>
+          <StyledLogo $secondary>
             <BiLogoGit />
           </StyledLogo>
           <StyledLogo>
