@@ -7,6 +7,8 @@ export const Theme = {
     secondaryTransparent: "#33333396",
     accent: "#CC5500",
     accent2: "#0047AB",
+    accent_opacity: "rgba(204, 85, 0, 0.2)",
+    accent2_opacity: "rgb(0,71,171, 0.2)",
   },
   width: {
     mobile: "375px",

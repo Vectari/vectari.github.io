@@ -7,7 +7,16 @@ const ProjectsWrapper = styled.div`
 
 const StyledH1 = styled.h1`
   padding: 15px 0 10px 0;
-  border-top: 1px solid ${Theme.colors.secondary};
+  /* border-top: 1px solid ${Theme.colors.secondary}; */
+  background-image: linear-gradient(
+    to right,
+    ${Theme.colors.accent_opacity},
+    ${Theme.colors.accent2_opacity}
+  );
+  border-radius: 30px;
+  max-width: max-content;
+  padding: 15px;
+  margin-bottom: 10px;
 `;
 
 const StyledImg = styled.img`

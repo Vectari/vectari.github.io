@@ -35,7 +35,26 @@ const StyledLogo = styled.span`
 
 const StyledH1 = styled.h1`
   padding: 15px 0 10px 0;
-  border-top: 1px solid ${Theme.colors.secondary};
+  /* border-top: 1px solid ${Theme.colors.secondary}; */
+  /* background-image: linear-gradient(
+    to right,
+    ${Theme.colors.accent_opacity},
+    ${Theme.colors.accent2_opacity}
+  ); */
+
+  background-image: linear-gradient(
+    to right,
+    ${(props) =>
+      props.$secondary
+        ? `${Theme.colors.accent_opacity},
+    ${Theme.colors.accent2_opacity}`
+        : `${Theme.colors.accent2_opacity},
+    ${Theme.colors.accent_opacity}`}
+  );
+
+  border-radius: 30px;
+  max-width: max-content;
+  padding: 15px;
 `;
 
 const StyledTable = styled.table`
@@ -85,7 +104,7 @@ export function Technologies() {
             <BiLogoGithub />
           </StyledLogo>
         </LogoWrapper>
-        <StyledH1>🛠️ Technology Stack</StyledH1>
+        <StyledH1 $secondary>🛠️ Technology Stack</StyledH1>
 
         <StyledTable>
           <StyledTr>
@@ -172,7 +191,7 @@ export function Technologies() {
             </StyledTd>
           </StyledTr>
         </StyledTable>
-        <StyledH1>🙋‍♂️ About Me</StyledH1>
+        <StyledH1 $secondary>🙋‍♂️ About Me</StyledH1>
         <StyledTable>
           <StyledTr>
             <StyledTd>

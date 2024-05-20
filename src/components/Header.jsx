@@ -87,6 +87,7 @@ const StyledButton = styled.button`
   /* background-color: ${(props) =>
     props.$secondary ? `${Theme.colors.accent2}` : `${Theme.colors.accent}`}; */
   background-image: linear-gradient(to right, ${Theme.colors.accent}, ${Theme.colors.accent2});
+  opacity: 0.85;
   font-size: 1.2rem;
   margin: 15px;
   padding: 15px 70px;
