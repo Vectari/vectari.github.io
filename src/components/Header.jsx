@@ -88,9 +88,8 @@ const StyledButton = styled.button`
     props.$secondary ? `${Theme.colors.accent2}` : `${Theme.colors.accent}`};
   font-size: 1.2rem;
   margin: 15px;
-  padding: 15px;
+  padding: 15px 70px;
   border-radius: 30px;
-  text-align: center;
   cursor: pointer;
 
   &:hover {
@@ -159,7 +158,7 @@ export function Header() {
           My name is Mateusz <StyledSpan>🖖</StyledSpan>
         </StyledH2>
         <StyledH3>React Developer</StyledH3>
-        {/* <StyledButton>Contact me</StyledButton> */}
+        <StyledButton>Contact me</StyledButton>
         {/* <StyledButton $secondary>Contact me</StyledButton> */}
       </TextWrapper>
       <ImgWrapper>
