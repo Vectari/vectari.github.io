@@ -84,8 +84,9 @@ const StyledButton = styled.button`
   animation: ${fadeInH3_Img} 4s ease-in;
   border: none;
   color: ${Theme.colors.maintext};
-  background-color: ${(props) =>
-    props.$secondary ? `${Theme.colors.accent2}` : `${Theme.colors.accent}`};
+  /* background-color: ${(props) =>
+    props.$secondary ? `${Theme.colors.accent2}` : `${Theme.colors.accent}`}; */
+  background-image: linear-gradient(to right, ${Theme.colors.accent}, ${Theme.colors.accent2});
   font-size: 1.2rem;
   margin: 15px;
   padding: 15px 70px;
