@@ -9,7 +9,6 @@ import { useEffect } from "react";
 
 const Wrapper = styled.div`
   display: flex;
-  height: 35vh;
 `;
 
 const Sidebar = styled.nav`
@@ -65,8 +64,6 @@ const HoverText = styled.span`
   }
 `;
 
-
-
 export function Contact() {
   const email = "mateusz.majer996@gmail.com";
   const mailtoLink = `mailto:${email}`;
@@ -74,19 +71,18 @@ export function Contact() {
   const phone = "+48 721 072 731";
   const callTo = `callto:${phone}`;
 
-
   const handleScroll = () => {
     if (window.innerHeight + window.scrollY >= document.body.offsetHeight) {
-      console.log('User has reached the bottom of the page');
+      console.log("User has reached the bottom of the page");
       // Trigger your desired behavior here
     }
   };
-  
+
   useEffect(() => {
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
 
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
